@@ -1,0 +1,37 @@
+button {
+    font-size: 20px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100vw;
+    height: 50vh;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 50px;
+    display: flex;
+}
+
+.block_area {
+    width: 50%;
+    height: 30%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block {
+    height: 0;
+    width: 30%;
+    background: red;
+    transition: height 1s cubic-bezier(0, 0, 1, 1) 1s;
+}
+
+.block_show {
+    height: 100%;
+}
